@@ -37,7 +37,8 @@ class ViewController: UIViewController {
     @IBAction func resetButtonAction(_ sender: UIButton) {
         timer.invalidate()
         isWorkTime = true
-        updateviews()
+        isStarted = false
+        updateViews()
     }
 
 
@@ -63,7 +64,7 @@ class ViewController: UIViewController {
 
         if timeCount == 0 {
             isWorkTime.toggle()
-            updateviews()
+            updateViews()
         }
 
         let time = convertSecondsToMinutesAndSeconds(timeCount)
@@ -142,7 +143,7 @@ class ViewController: UIViewController {
         }
     }
 
-    private func updateviews() {
+    private func updateViews() {
         setupPlayButton()
         setupStopwatchLabel()
         setColors()

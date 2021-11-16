@@ -30,8 +30,8 @@
             filePath = "iOS3-HW11 - &#x424;&#x435;&#x434;&#x44b;&#x448;&#x438;&#x43d; &#x41c;&#x430;&#x442;&#x432;&#x435;&#x438;&#x306;/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
             landmarkName = "setupStopwatchLabel()"
             landmarkType = "7">
          </BreakpointContent>
